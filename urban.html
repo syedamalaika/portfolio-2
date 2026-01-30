@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanStep | Future Footwear</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="urban.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top me-2">
+                Urban<span>Step</span>
+            </a>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Collection</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg-glow"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="hero-title">WALK THE <br><span class="text-neon-blue">NEON</span> PATH</h1>
+                    <p class="hero-subtitle">Experience the fusion of futuristic design and ultimate comfort. Step into
+                        tomorrow with UrbanStep.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#products" class="btn btn-neon">Shop Collection</a>
+                        <a href="#about" class="btn btn-neon btn-neon-purple">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center mt-5 mt-lg-0">
+                    <!-- Using logo as placeholder, ideally a shoe image -->
+                    <img src="logo.png" alt="UrbanStep Shoe" class="img-fluid"
+                        style="max-height: 400px; filter: drop-shadow(0 0 30px rgba(0, 243, 255, 0.3));">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="about-img-container">
+                        <!-- Placeholder image -->
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80"
+                            alt="About UrbanStep" class="about-img">
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <h2 class="section-title text-start mb-4">Who We Are</h2>
+                    <p class="lead mb-4">UrbanStep isn't just a shoe brand; it's a movement. Born in the heart of the
+                        cyber-city, we craft footwear for the bold, the dreamers, and the night-walkers.</p>
+                    <p class="mb-4" style="color: rgba(255,255,255,0.7);">Our mission is to blend cutting-edge
+                        aesthetics with ergonomic science. Every pair is designed to turn heads while keeping you
+                        comfortable on your journey through the urban jungle.</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-check text-neon-blue me-2"></i> Futuristic Materials</li>
+                        <li class="mb-2"><i class="fas fa-check text-neon-blue me-2"></i> Ergonomic Sole Technology</li>
+                        <li class="mb-2"><i class="fas fa-check text-neon-blue me-2"></i> 100% Vegan & Sustainable</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <h2 class="section-title">New Arrivals</h2>
+            <div class="row g-4">
+                <!-- Product 1 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top" alt="Neon Runner">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Neon Runner X1</h5>
+                            <span class="card-price">$129.00</span>
+                            <p class="card-text small text-white-50">High-performance running shoe with luminous
+                                accents.</p>
+                            <a href="#" class="btn btn-neon w-100">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top" alt="Cyber High-Top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Cyber High-Top</h5>
+                            <span class="card-price">$159.00</span>
+                            <p class="card-text small text-white-50">Street-ready high tops with ankle support.</p>
+                            <a href="#" class="btn btn-neon w-100">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top" alt="Void Walker">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Void Walker</h5>
+                            <span class="card-price">$189.00</span>
+                            <p class="card-text small text-white-50">Limited edition stealth design for the night.</p>
+                            <a href="#" class="btn btn-neon w-100">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1605348532760-6753d2c43329?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top" alt="Neon Street Low">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Neon Street Low</h5>
+                            <span class="card-price">$110.00</span>
+                            <p class="card-text small text-white-50">Everyday comfort with a futuristic twist.</p>
+                            <a href="#" class="btn btn-neon w-100">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top" alt="Gravity Defier">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Gravity Defier</h5>
+                            <span class="card-price">$199.00</span>
+                            <p class="card-text small text-white-50">Zero-gravity sole technology for maximum bounce.
+                            </p>
+                            <a href="#" class="btn btn-neon w-100">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top" alt="Urban Trekker">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Urban Trekker</h5>
+                            <span class="card-price">$145.00</span>
+                            <p class="card-text small text-white-50">Rugged durability meets neon aesthetics.</p>
+                            <a href="#" class="btn btn-neon w-100">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="contact-form-container">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Your Name">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" placeholder="Your Email">
+                                </div>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Subject">
+                            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                            <div class="text-center mt-4">
+                                <button type="submit" class="btn btn-neon px-5">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links mb-4">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <p>&copy; 2025 UrbanStep. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
